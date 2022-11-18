@@ -1,0 +1,10 @@
+{
+	"files.associations": {
+		"*.env.local": "env",
+		"A2Q6-maximumAmong3.C": "cpp",
+		"A2Q7-bloodDonor.C": "cpp",
+		"A2Q9-LeapYear.C": "cpp",
+		"A2Q12-fibonacciSeries.C": "cpp",
+		"A2Q13-evenInRange.C": "cpp"
+	}
+}
