@@ -19,7 +19,7 @@ int main() {
   scanf("%d", &salary);
 
   // Taxable Amount For Male is 1,50,000 and Female is 1,80,000
-  if ((gender == 'M' && salary > 150000) || gender == 'F' && salary > 180000)
+  if ((gender == 'M' && salary > 150000) || (gender == 'F' && salary > 180000))
     printf("You are Taxable");
   else
     printf("You are not Taxable");
