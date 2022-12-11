@@ -25,3 +25,5 @@ int main() {
     printf(" %d ", currentNumber);
   }
 }
+
+// 0 1 1 2 3 5
