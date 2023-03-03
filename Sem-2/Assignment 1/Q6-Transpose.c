@@ -15,7 +15,8 @@ int main() {
   scanf("%d", &rows);
   printf("Enter no of columns");
   scanf("%d", &cols);
-  int matrix[rows][cols];
+  int matrixOrder = rows > cols ? rows : cols;
+  int matrix[matrixOrder][matrixOrder];
   for (int i = 0; i < rows; i++) {
     for (int j = 0; j < cols; j++) {
       printf("Enter Element for position (%d,%d)", i + 1, j + 1);
@@ -24,7 +25,7 @@ int main() {
   }
   for (int i = 0; i < rows; i++) {
     for (int j = 0; j < cols; j++) {
-      printf("%d", matrix[j][i]);
+      printf(" %d ", matrix[j][i]);
     }
     printf("\n");
   }
