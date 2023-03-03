@@ -15,5 +15,5 @@ int main() {
     scanf("%d", &num1);
     printf("Enter a second number");
     scanf("%d", &num2);
-    printf("Smallest number among both of these is %d", smallest(num1, num2));
+    printf("Smallest number among both of these is %d", smallest(&num1, &num2));
 }
